@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #767E9E;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after{
+box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__with__padding {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 73px;
+}
+
+.header {
+    width: 100%;
+    height: 95px;
+    padding-top: 35px;
+    background: url("../images/head.jpg") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.header:after{
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 6px;
+    background-color: #323746;
+    margin: 14px auto;
+}
+
+.flex__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: #f7f7f7;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+
+    color: #f7f7f7;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: .2s linear;
+}
+
+.nav__link:hover {
+    color: #f06c64;
+}
+
+/* Section 1*/
+
+.section__1 {
+    margin-top: 95px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-color: #f06c64;
+}
+
+.section__1:after{
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 6px;
+    background-color: #ea676b;
+    margin: 53px auto;
+}
+
+.images {
+    padding-top: 53px;
+}
+
+/* Section 2*/
+
+.section__2 {
+    background-color: #f2f2f2;
+}
+
+.section__2:after{
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 6px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+}
+
+.our__services {
+    font-size: 30px;
+    padding-top: 66px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.services {
+    padding-top: 50px;
+}
+
+.services__item {
+    flex-basis: 30%;
+    padding-left: 90px;
+    position: relative;
+}
+
+.services__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services__icon {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+}
+
+.services__text {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 18px;
+}
